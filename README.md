@@ -9,18 +9,18 @@ To write a program to find the solution of a matrix using Gaussian Elimination.
 
 ## Algorithm
 (i) To find the L and U matrix
-1. Take the input as a square matrix A.
-2. Convert the input into a Numpy array for mathematical operations.
-3. Use the lu function from the scipy .linalg library to compute the LU decomposition of matrix A,which returns permutation matrix p, lower triangular matrix L, and upper triangular matrix U.
-4. Print the variable 'L' and 'U'.
+   1. Take the input as a square matrix A.
+   2. Convert the input into a Numpy array for mathematical operations.
+   3. Use the lu function from the scipy .linalg library to compute the LU decomposition of matrix A,which returns permutation matrix p, lower triangular matrix L, and upper triangular matrix U.
+   4. Print the variable 'L' and 'U'.
 <br>
 (ii) To find the LU Decomposition of a matrix
-1. Define the package as scipy.linalg import lu.
-2. Take two inputs from the user: A: A square matrix (coefficient matrix) B: A vector (right-hand side of the linear equations).
-3. Convert the inputs into Numpy arrays for the numerical operations.
-4. Use the lu_factor function from scipy.linalg to compute the LU decomposition of a matrix A. This returns: lu: Combined LU decomposition. piv: Pivot indicates.
-5. Use lu_slove with the LU decomposition (lu,piv) and vector b to compute the solution vector x.
-6. Print the variable 'X'.
+   1. Define the package as scipy.linalg import lu.
+   2. Take two inputs from the user: A: A square matrix (coefficient matrix) B: A vector (right-hand side of the linear equations).
+   3. Convert the inputs into Numpy arrays for the numerical operations.
+   4. Use the lu_factor function from scipy.linalg to compute the LU decomposition of a matrix A. This returns: lu: Combined LU decomposition. piv: Pivot indicates.
+   5. Use lu_slove with the LU decomposition (lu,piv) and vector b to compute the solution vector x.
+   6. Print the variable 'X'.
    
 ## Program:
 ```

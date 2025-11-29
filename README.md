@@ -13,6 +13,7 @@ To write a program to find the solution of a matrix using Gaussian Elimination.
 2. Convert the input into a Numpy array for mathematical operations.
 3. Use the lu function from the scipy .linalg library to compute the LU decomposition of matrix A,which returns permutation matrix p, lower triangular matrix L, and upper triangular matrix U.
 4. Print the variable 'L' and 'U'.
+<br>
 (ii) To find the LU Decomposition of a matrix
 1. Define the package as scipy.linalg import lu.
 2. Take two inputs from the user: A: A square matrix (coefficient matrix) B: A vector (right-hand side of the linear equations).
